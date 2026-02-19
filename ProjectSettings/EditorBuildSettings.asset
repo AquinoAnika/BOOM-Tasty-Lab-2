@@ -9,14 +9,14 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: d4c990fce63486e4e8fc5e2c9ffeb478
   - enabled: 1
+    path: Assets/Scenes/Tutorial Level.unity
+    guid: 979c003aba21f5f4dbeea4bb31635383
+  - enabled: 0
     path: Assets/Scenes/OpeningScene.unity
     guid: c48f2f0e775584e49a10de4f7be9c84b
   - enabled: 0
     path: Assets/Scenes/Boomtasty.unity
     guid: ddd2c6cdda4a4d747b0631c9e17b44cb
-  - enabled: 0
-    path: Assets/Scenes/Tutorial Level.unity
-    guid: 979c003aba21f5f4dbeea4bb31635383
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 289c1b55c9541489481df5cc06664110, type: 3}
   m_UseUCBPForAssetBundles: 0
