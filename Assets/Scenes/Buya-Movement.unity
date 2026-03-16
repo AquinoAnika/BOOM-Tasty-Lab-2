@@ -285,10 +285,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
-    m_AddedGameObjects:
-    - targetCorrespondingSourceObject: {fileID: -8679921383154817045, guid: 6153e446ed88beb4695658259cd063ad, type: 3}
-      insertIndex: 0
-      addedObject: {fileID: 1624268272}
+    m_AddedGameObjects: []
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6153e446ed88beb4695658259cd063ad, type: 3}
       insertIndex: -1
@@ -819,8 +816,9 @@ GameObject:
   - component: {fileID: 1624268272}
   - component: {fileID: 1624268274}
   - component: {fileID: 1624268273}
+  - component: {fileID: 1624268275}
   m_Layer: 0
-  m_Name: Mause
+  m_Name: Camera(Maus)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -834,12 +832,12 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1624268271}
   serializedVersion: 2
-  m_LocalRotation: {x: -0.2710633, y: -0.0040389597, z: 0.0011368394, w: -0.9625524}
-  m_LocalPosition: {x: -0.054196842, y: 2.7434542, z: -4.443113}
+  m_LocalRotation: {x: -0.19086713, y: -0.6834823, z: 0.19247429, w: -0.67777246}
+  m_LocalPosition: {x: -6.922722, y: 3.5734541, z: 3.414575}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 743443183}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!81 &1624268273
 AudioListener:
@@ -900,6 +898,21 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &1624268275
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1624268271}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12dfe9d8345721042b1cd3216180952c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::CameraFollow
+  target: {fileID: 743443183}
+  smoothSpeed: 0.125
+  offset: {x: 10, y: 10, z: 0}
 --- !u!1001 &2020598402
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -968,4 +981,5 @@ SceneRoots:
   - {fileID: 1291530751}
   - {fileID: 2020598402}
   - {fileID: 895680756}
+  - {fileID: 1624268272}
   - {fileID: 743443181}
