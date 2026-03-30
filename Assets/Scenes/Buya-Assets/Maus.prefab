@@ -65,6 +65,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6153e446ed88beb4695658259cd063ad, type: 3}
       insertIndex: -1
       addedObject: {fileID: 8913187132393992118}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6153e446ed88beb4695658259cd063ad, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 554531856950364601}
+    - targetCorrespondingSourceObject: {fileID: 919132149155446097, guid: 6153e446ed88beb4695658259cd063ad, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2071036120595063508}
   m_SourcePrefab: {fileID: 100100000, guid: 6153e446ed88beb4695658259cd063ad, type: 3}
 --- !u!1 &715851538767386968 stripped
 GameObject:
@@ -133,3 +139,27 @@ BoxCollider:
   serializedVersion: 3
   m_Size: {x: 1.9638555, y: 1.7384374, z: 3.7982888}
   m_Center: {x: -0.015546292, y: 0.011659503, z: 0.4119699}
+--- !u!114 &554531856950364601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 715851538767386968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55edd124aa014fc2a4d8ef1794dcd775, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualScripting.Core::Unity.VisualScripting.UnityOnTriggerEnterMessageListener
+--- !u!114 &2071036120595063508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 715851538767386968}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: da2f29c1022a493897ccb5e5e3cfa8e6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Unity.VisualScripting.Core::Unity.VisualScripting.UnityOnTriggerStayMessageListener

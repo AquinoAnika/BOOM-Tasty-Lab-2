@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 95e66c6366d904e98bc83428217d4fd7, type: 3}
+  m_Name: BridgeAnimation
+  m_EditorClassIdentifier: Unity.VisualScripting.Flow::Unity.VisualScripting.ScriptGraphAsset
+  _data:
+    _json: '{"graph":{"variables":{"Kind":"Flow","collection":{"$content":[],"$version":"A"},"$version":"A"},"controlInputDefinitions":[],"controlOutputDefinitions":[],"valueInputDefinitions":[],"valueOutputDefinitions":[],"title":"BridgeAnimation","summary":null,"pan":{"x":229.7827,"y":-196.3026},"zoom":1.0,"elements":[{"coroutine":false,"defaultValues":{"target":{"$content":0,"$type":"UnityEngine.Object"}},"position":{"x":-79.0,"y":-103.0},"guid":"b10d589d-2d6f-434d-9439-0f4e8c322087","$version":"A","$type":"Unity.VisualScripting.OnTriggerEnter","$id":"9"},{"chainable":false,"parameterNames":["clip","newName"],"member":{"name":"AddClip","parameterTypes":["UnityEngine.AnimationClip","System.String"],"targetType":"UnityEngine.Animation","targetTypeName":"UnityEngine.Animation","$version":"A"},"defaultValues":{"target":null,"%clip":null,"%newName":{"$content":"","$type":"System.String"}},"position":{"x":186.0,"y":-95.0},"guid":"de5de6c6-e39a-4eb3-a0e9-f5fb0e90182c","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"11"},{"chainable":false,"parameterNames":["eulers"],"member":{"name":"Rotate","parameterTypes":["UnityEngine.Vector3"],"targetType":"UnityEngine.Transform","targetTypeName":"UnityEngine.Transform","$version":"A"},"defaultValues":{"target":null,"%eulers":{"x":0.0,"y":0.0,"z":0.0,"$type":"UnityEngine.Vector3"}},"position":{"x":374.0,"y":-56.0},"guid":"ad91423c-acbe-428e-b374-d22e90ee3d44","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"15"},{"chainable":false,"parameterNames":["message"],"member":{"name":"Log","parameterTypes":["System.Object"],"targetType":"UnityEngine.Debug","targetTypeName":"UnityEngine.Debug","$version":"A"},"defaultValues":{},"position":{"x":166.0,"y":-417.0},"guid":"ccaa07a8-eaf9-4200-ac4c-9e3fc4ba0b15","$version":"A","$type":"Unity.VisualScripting.InvokeMember","$id":"19"},{"type":"System.String","value":{"$content":"Obama","$type":"System.String"},"defaultValues":{},"position":{"x":-59.0,"y":-398.0},"guid":"1e36f56b-5325-4467-8724-7e761a057f4a","$version":"A","$type":"Unity.VisualScripting.Literal","$id":"23"},{"coroutine":false,"defaultValues":{"target":{"$content":1,"$type":"UnityEngine.Object"}},"position":{"x":-55.0,"y":-295.0},"guid":"3665b9b2-e15a-45f1-a21f-83d1fc86e576","$version":"A","$type":"Unity.VisualScripting.OnTriggerStay","$id":"25"},{"sourceUnit":{"$ref":"11"},"sourceKey":"exit","destinationUnit":{"$ref":"15"},"destinationKey":"enter","guid":"87ed3852-dfb5-44d1-86ab-e4802ea99704","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"9"},"sourceKey":"trigger","destinationUnit":{"$ref":"19"},"destinationKey":"enter","guid":"20b33991-a363-4628-a19f-153de49d1a84","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"25"},"sourceKey":"trigger","destinationUnit":{"$ref":"19"},"destinationKey":"enter","guid":"7bf71433-85e9-466e-8a1c-790bfa13e3ed","$type":"Unity.VisualScripting.ControlConnection"},{"sourceUnit":{"$ref":"23"},"sourceKey":"output","destinationUnit":{"$ref":"19"},"destinationKey":"%message","guid":"1de43c6f-a126-484d-8759-e21a7d30a2c2","$type":"Unity.VisualScripting.ValueConnection"}],"$version":"A"}}'
+    _objectReferences:
+    - {fileID: 715851538767386968, guid: 761aeefc07ef46246a39af8194d6faca, type: 3}
+    - {fileID: 715851538767386968, guid: 761aeefc07ef46246a39af8194d6faca, type: 3}
