@@ -964,7 +964,7 @@ SkinnedMeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: -6478536213147159724, guid: bda9034442a58594192b5c2d58d2a74a, type: 3}
+  - {fileID: 2100000, guid: 94b6dfb618dbb4646a96f4f25bae404e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1215,6 +1215,7 @@ GameObject:
   m_Component:
   - component: {fileID: 4308532729831792408}
   - component: {fileID: 55401541638885402}
+  - component: {fileID: 4336790588291964468}
   m_Layer: 0
   m_Name: Retopo.001
   m_TagString: Untagged
@@ -1222,6 +1223,28 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
+--- !u!64 &4336790588291964468
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4336790588291964467}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 1
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 1
+  m_CookingOptions: 30
+  m_Mesh: {fileID: 0}
 --- !u!4 &4399357394396625304
 Transform:
   m_ObjectHideFlags: 0

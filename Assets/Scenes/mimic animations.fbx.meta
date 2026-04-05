@@ -209,7 +209,7 @@ ModelImporter:
       takeName: big hit
       internalID: 8934916141585764479
       firstFrame: 0
-      lastFrame: 48
+      lastFrame: 20
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -238,7 +238,7 @@ ModelImporter:
       takeName: small hit
       internalID: -3503659148381392584
       firstFrame: 0
-      lastFrame: 48
+      lastFrame: 10
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
