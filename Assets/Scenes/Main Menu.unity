@@ -1045,7 +1045,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 449cc9e698acafc498eba29f4ec5e883, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::MenuFader
-  fadeDuration: 0.8
+  fadeDuration: 0.6
 --- !u!225 &682183081
 CanvasGroup:
   m_ObjectHideFlags: 0
