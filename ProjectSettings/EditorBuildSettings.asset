@@ -9,8 +9,8 @@ EditorBuildSettings:
     path: Assets/Scenes/Main Menu.unity
     guid: 56d666b46beceab42b4194733321a78c
   - enabled: 1
-    path: Assets/Scenes/Boomtasty.unity
-    guid: ddd2c6cdda4a4d747b0631c9e17b44cb
+    path: Assets/Scenes/final game tutoral.unity
+    guid: 210da82f4738dcf44b13292a1160d4c8
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 289c1b55c9541489481df5cc06664110, type: 3}
   m_UseUCBPForAssetBundles: 0
