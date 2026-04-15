@@ -9,7 +9,7 @@ public class MainMenu : MonoBehaviour
     public void StartGame()
 {
     // Replace "NameOfYourGameScene" with the actual name of your game scene
-    SceneManager.LoadScene("Boomtasty");
+    SceneManager.LoadScene("Final game tutoral");
 }
 
     // Update is called once per frame

@@ -2,29 +2,30 @@ using UnityEngine;
 
 public class CreditManager : MonoBehaviour
 {
-    public GameObject creditsPanel; // The panel with your names
-    public GameObject mainMenuUI;   // The object holding your menu buttons (Play, Credits, Exit)
+    public GameObject Credits;
+    public GameObject MainMenuPanel;
 
     void Update()
     {
-        // If the credits are visible and you press Escape
-        if (creditsPanel.activeSelf && Input.GetKeyDown(KeyCode.Escape))
+        if (Input.GetKeyDown(KeyCode.Escape))
         {
-            ReturnToMenu();
+            Debug.Log("Escape Key Pressed!"); // Check your Console for this!
+            if (Credits.activeSelf)
+            {
+                ReturnToMenu();
+            }
         }
     }
 
-    // Function for your Credits Button to call
     public void ShowCredits()
     {
-        creditsPanel.SetActive(true);
-        mainMenuUI.SetActive(false); // Hide the menu so only credits show
+        Credits.SetActive(true);
+        MainMenuPanel.SetActive(false);
     }
 
-    // Function to return to the menu
     public void ReturnToMenu()
     {
-        creditsPanel.SetActive(false);
-        mainMenuUI.SetActive(true); // Bring the menu buttons back
+        Credits.SetActive(false);
+        MainMenuPanel.SetActive(true);
     }
 }
